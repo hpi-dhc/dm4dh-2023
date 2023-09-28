@@ -28,4 +28,8 @@ def plot_data_and_decision_boundary(the_data, f1, f2, target, model=None):
         xx, yy = make_meshgrid(the_data[f1], the_data[f2])
         plot_contours(ax, model, xx, yy, cmap=plt.cm.coolwarm, alpha=0.2)
 
-pass
+def load_messy_heart_disease_dataset():
+    data = pd.read_csv('https://web.stanford.edu/~hastie/ElemStatLearn/datasets/SAheart.data')
+    data_noise = data.copy()
+    data_noise.loc[103, 'age'] *= 365
+    return data_noise
