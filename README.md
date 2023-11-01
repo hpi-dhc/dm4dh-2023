@@ -8,5 +8,6 @@ To run all notebooks interactively with MyBinder, click here (and wait for a few
 
 ## Contents:
 
+
 * Week 2: [Introduction to Machine Learning](1_ML_Intro.ipynb)
 * Week 3: [Iterative Machine Learning Design Process for Digital Health](2_ML_Process.ipynb)
