@@ -6,8 +6,6 @@ To run the code interactively, you can either use:
 *  MyBinder (preferred) - click here (and wait for a few seconds): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpi-dhc/dm4dh-2023/main)
 *  Kaggle (see links below) - click on the links and Click "Copy & Edit" on the Kaggle website
 
-**Note**: If MyBinder is not launching, you can also try to use the Kaggle links below, which should also work without a Kaggle account )open.
-
 ## Contents:
 
 
