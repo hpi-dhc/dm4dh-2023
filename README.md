@@ -6,6 +6,8 @@ To run all notebooks interactively with MyBinder, click here (and wait for a few
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpi-dhc/dm4dh-2023/main)
 
+As a more reliable option, you might want to [install Jupyter](https://jupyter.org/) on your local machine.
+
 ## Contents:
 
 
