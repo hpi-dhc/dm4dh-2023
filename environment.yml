@@ -1,4 +1,6 @@
 name: dm4dh
+channels:
+  - conda-forge
 dependencies:
   - python
   - pip
