@@ -18,3 +18,4 @@ As a more reliable option, you might want to [install Jupyter](https://jupyter.o
     * [Neural Networks](4_Neural_Networks.ipynb)
     * [Word Embeddings](5_Word_Embeddings.ipynb)
 * Week 10: [Large Language Models](6_LLMs.ipynb)
+* Weeek 13: [Clustering](7_Clustering.ipynb)
