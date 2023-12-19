@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 
 # Author: Dr. Matthieu-P. Schapranow
 # E-Mail: <schapranow@hpi.de>
@@ -49,8 +49,7 @@ def invert(bwt_arr, bwt_sorted, len_bwt):
 	return res
 
 if __name__ == "__main__":
-    bwt_string = "N*ENNGRIEIE#G" 
-    bwt_string = "NR*AAAG#M"
+    bwt_string = input("Please enter to BWT-encoded string to perform the inverse BWT operation on (use * = start and # = end of the string): ")
     len_text = len(bwt_string)
 
 

@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 
 # Author: Dr. Matthieu-P. Schapranow
 # E-Mail: <schapranow@hpi.de>
@@ -25,8 +25,12 @@ def get_last_chars(sorted_rotations, len_text):
  
 
 if __name__ == "__main__":
-    input_text = "*ENGINEERING#"
-    input_text = "*ANAGRAM#"
+
+    input_text = input("Please enter the string to apply BWT to: ")
+    if (input_text[0] != '*'):
+        input_text = '*' + input_text
+    if (input_text[-1] != '#'):
+        input_text = input_text + '#'
     len_text = len(input_text);
 
     print("Input text:", input_text);
